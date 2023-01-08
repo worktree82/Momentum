@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Momentum App</title>
+</head>
+<body>
+    <div class="top-row"></div>
+    <div class="center-above"></div>
+    <h2 id="clock" class="center">00:00</h2>
+    <form class="hidden center" id="login-form">
+        <input id="login-input" required maxlength="15" type="text" placeholder="Please write your name!"/>
+        <input type="submit" value="Log In"/>
+    </form>
+    <h1 class="hidden center" id="greeting"></h1>
+    <div>
+        <form id="todo-form" class="center">
+            <input type="text" placeholder="Write a To Do and Press Enter" required/>
+        </form>
+        <ul id="todo-list"></ul>
+    </div>
+    <div id="quote">
+        <div><span></span></div>
+        <div><span></span></div>
+    </div>
+    <div id="weather">
+        <div><span></span></div>
+        <div><span></span></div>
+    </div>
+    <div id="christmas">
+        <span>Time Until Christmas Eve</span>
+        <h2 class="js-clock">00:00</h2>
+    </div>
+    <script src="js/greeting.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/dday.js"></script>
+</body>
+</html> 
